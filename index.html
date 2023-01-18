@@ -1,0 +1,95 @@
+<!--00°) Aproximacion a la función REPLACE .replace("", "")
+    01°) Usando .split('') de esta manera creamos un array con cada caracter 
+    luego se hace una logica que remplace caracter por caracter segú las condiciones
+    y por ultimo se unen los elementos del array para obtener el mensaje encriptado
+    02°) Usaremos la fucnion .replace("", "") para desencriptar el texto
+    03°) Agrego linea para commitear.
+    04°) veamos la segunda modificación
+-->
+
+<meta charset="UTF-8">
+
+<h1>Sprint 01: Construye un encriptador de texto con Javascript</h1>
+<h2 style="color:#5e2129">Función SPLIT → Encripta</h2>
+<h2 style="color:#5e2129">Función REPLACE → Desencripta</h2>
+<hr><hr><br><br>
+Ingrese un texto a encriptar
+<br><br>
+<input id="inputEncriptar" autofocus type="text" placeholder="texto a encriptar"/>   <!-- caja de entrada de datos-->
+<br><br>
+<button id="boton01"> encriptar </button>    <!-- texto del boton "button" <button name="favorito" type="button"> -->
+<br><br><br><br><hr><hr><br><br>
+Ingrese un texto a desencriptar
+<br><br>
+<input id="inputDesencriptar" type="text" placeholder="texto a desencriptar"/>
+<br><br>
+<button id="boton02"> desencriptar </button>    <!-- texto del boton "button"-->
+<br><br><br><br><hr><hr>
+
+<script>
+
+	function encriptar(){
+		var textoEntrada = document.querySelector("#inputEncriptar").value; //define var "textoEntrada" llamado desde HTML
+        var arrayEntrada = textoEntrada.split('');  //crea matriz "arrayEntrada" con caracteres del string "textoEntrada"
+
+        //cambia cada caracter por su criptografía
+        for (i = 0; i < textoEntrada.length; i++){
+            if(arrayEntrada[i]=="a"){
+                arrayEntrada[i]="ai";
+            }
+        }
+        for (i = 0; i < textoEntrada.length; i++){
+            if(arrayEntrada[i]=="e"){
+                arrayEntrada[i]="enter";
+            }
+        }
+        for (i = 0; i < textoEntrada.length; i++){
+            if(arrayEntrada[i]=="i"){
+                arrayEntrada[i]="imes";
+            }
+        }
+        for (i = 0; i < textoEntrada.length; i++){
+            if(arrayEntrada[i]=="o"){
+                arrayEntrada[i]="ober";
+            }
+        }
+        for (i = 0; i < textoEntrada.length; i++){
+            if(arrayEntrada[i]=="u"){
+                arrayEntrada[i]="ufat";
+            }
+        }
+
+        var textoCifrado = arrayEntrada.join('');   //junta los elementos del array y arma el string "textoCifrado"
+		alert(textoCifrado);
+        console.log(textoCifrado);
+	}
+
+
+	function desencriptar(){
+        var entradaDesencriptar = document.querySelector("#inputDesencriptar").value;	//define var "inputDesencriptar" llamado desde HTML
+		//cambia cada criptografía por su caracter  
+        var salidaDesencriptar = entradaDesencriptar.
+		replace(/ai/g, "a").
+		replace(/enter/g, "e").
+		replace(/imes/g, "i").
+		replace(/ober/g, "o").
+		replace(/ufat/g, "u");
+		alert(salidaDesencriptar);
+    }
+    //define la variable "button" y la vincula con el botón "button" del HTML
+
+	var botonEncriptar = document.querySelector("#boton01");
+	botonEncriptar.onclick = encriptar;	//le asigna ejecutar la función encriptar con el accionamiento del botón (click)
+
+    var botonDesencriptar = document.querySelector("#boton02");
+	botonDesencriptar.onclick = desencriptar;	//le asigna ejecutar la función encriptar con el accionamiento del botón (click)
+	
+</script>
+
+<body>
+    <header>
+        <img src="/imagenes/Muñeco.png" alt="logo de alura" class="logo">
+        <img src="/imagenes/Logo@2x.jpg" alt="">
+    </header>
+</body>
+

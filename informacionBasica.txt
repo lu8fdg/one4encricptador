@@ -1,0 +1,89 @@
+Descripción
+¡Bienvenidos y Bienvenidas a nuestro primer desafío!
+
+Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos 
+con otras personas que sepan el secreto de la encriptación utilizada.
+
+Las "llaves" de encriptación que utilizaremos son las siguientes:
+
+La letra "e" es convertida para "enter"
+La letra "i" es convertida para "imes"
+La letra "a" es convertida para "ai"
+La letra "o" es convertida para "ober"
+La letra "u" es convertida para "ufat"
+
+Requisitos:
+- Debe funcionar solo con letras minúsculas
+- No deben ser utilizados letras con acentos ni caracteres especiales
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+
+Por ejemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
+
+La página debe tener campos para
+inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+El resultado debe ser mostrado en la pantalla.
+Extras:
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad 
+del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, 
+utilizando el Trello de la siguiente forma:
+
+La columna Listos para iniciar presenta las tarjetas con elementos que aun no fueron desarrollados.
+En la columna En Desarrollo estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la 
+tarjeta que contiene dicha tarea para esta columna.
+En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
+Por fin, en la columna Concluido estarán los elementos ya concluidos.
+El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
+
+Buen proyecto!
+
+
+LINK PRINCIPAL
+
+https://www.aluracursos.com/challenges/challenge-one-logica/sprint01-construye-un-encriptador-texto-con-javascript
+
+
+TRELLO
+
+https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-oracle-one
+
+
+
+FIGMA
+
+https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica
+
+
+Descripción
+Separamos algunos materiales de Alura (como cursos y artículos que pueden ayudarte al momento de temer alguna duda teórica.
+
+Cursos
+Curso Online Lógica de programación: Primeros pasos | Alura
+Curso Online Lógica de programación: Conceptos primordiales | Alura
+Curso Online Git y GitHub: controle y comparta su código | Alura
+- Curso Online HTML5 y CSS3 parte 1: Mi primera página web | Alura
+- Curso Online HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación | Alura
+- Curso Online HTML5 y CSS3 parte 3: Trabajando con formularios y tablas | Alura
+- Curso Online HTML5 y CSS3 parte 4: Avanzando en CSS | Alura
+
+Artículos
+Guía de Unidades en el CSS | Alura Cursos Online
+Centrar un elemento con CSS | Alura Cursos Online
+Capturando valor del input: introducción a los selectores | Alura Cursos Online
+HTML, CSS y Javascript, ¿cuáles son las diferencias? | Alura Cursos Online
+Git y Github: que son y primeros pasos | Alura Cursos Online
+
+Sección Git y GitHub
+- Comenzando con Git: aprendiendo a versionar  | Alura Cursos Online
+- Iniciando un repositorio con Git | Alura Cursos Online
+- Clonando un repositorio con Git y GitHub | Alura Cursos Online
+- Creando un repositorio remoto en GitHub | Alura Cursos Online
+
+Alura +
+¿Qué es la lógica de programación y cómo aplicarla? #AluraMás
+Cuándo usar let, var y const? #AluraMás
+¿Cómo un desarrollador Front End utiliza el Figma? #AluraMás
+Git y GitHub para Principiantes #AluraMás
